@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3E7B1319BE3DE3AC477521381397DE2D /* WDCAnalysis */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2960D5D380A626E4B081816D28ED097C /* Build configuration list for PBXAggregateTarget "WDCAnalysis" */;
+			buildPhases = (
+			);
+			dependencies = (
+				531E8D5649B3D61D107818AF14E747BB /* PBXTargetDependency */,
+				D207D5D31C38A100BB941E7F5F04774C /* PBXTargetDependency */,
+			);
+			name = WDCAnalysis;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00C6FFBC7F60F0E162A8F45D74AE0097 /* WDCSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BB3C1C4C9819BE7F3828F4CB63BE46 /* WDCSqliteTool.m */; };
+		02D258056E1B7D0DA33D22894C821DB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */; };
+		0F389538B14FE4D7A7E468F217FBDF28 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E92D6FFF143BB09A31E4AC6583F03 /* AFNetworking-dummy.m */; };
+		2D98A065AC72929D7C41C3E7A4491C38 /* WDCSqliteTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FD789D33274E1E877A2ED8149B232B /* WDCSqliteTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C4398747969C996297B1604A483DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */; };
+		36DADFF804D4408AD5668581F00AF0C5 /* WDCSqliteBaseTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0004F9294025A2875792457496F1B05E /* WDCSqliteBaseTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40748C470D513B0A1FC5C87BFEFDF3BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4F7799189C352E1D9346617C1FCFED /* SystemConfiguration.framework */; };
+		43897F6ED88A8440EB5216D4BEE22A36 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51935E6A3CABB01FD3ED01773788B047 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		453C6067DA6A71D3896B9DDA793A67B8 /* Pods-WDCAnalysis_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AB2E0008A82542C4575C43403266EF /* Pods-WDCAnalysis_Tests-dummy.m */; };
+		542DA16AAD8DCE8C59408F57CD677469 /* WDCSqlite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7769984D644A142DACFE17A545D068 /* WDCSqlite-dummy.m */; };
+		68AF2365FAA193DDE9EBD8E315BF78DA /* WDCModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5EB6DB6EB5CA16C5037AB59BE7BD24 /* WDCModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AF8B5ED99F5B7160B456157BE216585 /* Pods-WDCAnalysis_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F4F0134BB4119040CB88C3BBACE2AA /* Pods-WDCAnalysis_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E6366B1417B803A7C68AC2107F53FE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */; };
+		6EFFB4240F46103A8E5271C91EA5769B /* Pods-WDCAnalysis_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CCEC7DA71E571B53672F21FB52D68C /* Pods-WDCAnalysis_Example-dummy.m */; };
+		72EE13AC2350377A0939C1E71782C10E /* WDCTableTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0BA27840FD1A366844E47ECB0D0904 /* WDCTableTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		798CD23A1597A9086FFFB9693D51ED37 /* WDCSqlite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 781851485BC91E4F870BAAE9D7CD76C0 /* WDCSqlite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832ABE22023F7C0149FCDEDBC19C7BB7 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 87567C2F56BF98BAFB7980A487D959F7 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D83EBD6206A5BA166222C3A2092700F /* WDCSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA3A4C6E2B12129EA8864497E2280B /* WDCSqliteModelTool.m */; };
+		9367CAADE5ED76EF984F9BC7E6F30CE1 /* WDCSqliteConditionMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA8AEFE610B5E204FAEC96D4D91F335 /* WDCSqliteConditionMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD8482FFD73F973B08BA8DD85F77EE52 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A097346EC12525FDC6F289260431F3E /* AFNetworkReachabilityManager.m */; };
+		BE5428B87584E262EF88A2A04A14F57F /* WDCSqliteAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 70625C03DDD5259233AA1232E759F51B /* WDCSqliteAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C382E1E8955093D3497DF7278F452DC2 /* WDCTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9FC948727225197E9484A2D66BFB68 /* WDCTableTool.m */; };
+		C4302360AAD9BAF051A6E57BA428A46D /* WDCSqliteModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6F7584FAE298A08F8C448DB389E12C /* WDCSqliteModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB8AD27F50798B5C1AB1A92E9DE8D4B /* WDCSqliteConditionMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6BD3FDBD54BB543F196416C13E1215 /* WDCSqliteConditionMaker.m */; };
+		D069EE39CFB29F8799B9DBBA4F04990E /* WDCModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A09F1E319DA55B84F2CBC7DE697AD5A /* WDCModelTool.m */; };
+		E4B8F8C6CA935E3224376D384168310C /* WDCModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CE191D99703BE4E54489525C6EDE3786 /* WDCModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E64900D795AAACAB9E72380BF0FB5D94 /* WDCSqliteAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE19156B8677F09BB0C60F55FFB8E2A /* WDCSqliteAPI.m */; };
+		F4EB0755BECCE98F673D3A820DC9CF75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */; };
+		F7330505E06565CA31F9A2EA759E18EF /* Pods-WDCAnalysis_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A9345FFFEA128368C333A28498A096 /* Pods-WDCAnalysis_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F75C505614535DCAA5A768B06D5825D5 /* WDCSqliteBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EE21E84E5811F9801C7D29DE0154716B /* WDCSqliteBaseTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A3104251A01E7BD69FB28D3E6B19012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		5B76D04641371F659C3B89EE62422B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B2352806C92DEB1DB9A441D4884CBA;
+			remoteInfo = "Pods-WDCAnalysis_Example";
+		};
+		69AA30ACD4C423352B366BCBB84C8E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E7B1319BE3DE3AC477521381397DE2D;
+			remoteInfo = WDCAnalysis;
+		};
+		6BBAB596F95FE0076FA8AEB2A56ED2F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04DB41AD5B6B0E9205DA993479F6C1C;
+			remoteInfo = WDCSqlite;
+		};
+		B790D00D71EDD82A6595F59121AE8E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		C903D4DBEC9067654BB53A2A87E2FA4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04DB41AD5B6B0E9205DA993479F6C1C;
+			remoteInfo = WDCSqlite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0004F9294025A2875792457496F1B05E /* WDCSqliteBaseTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCSqliteBaseTool.h; path = WDCSqlite/Classes/WDCSqliteBaseTool.h; sourceTree = "<group>"; };
+		02032ED9E62D2F4849B3E780ED46A474 /* Pods_WDCAnalysis_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WDCAnalysis_Tests.framework; path = "Pods-WDCAnalysis_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C3A194445E9D66A640E47F90EAC6C9 /* WDCSqlite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WDCSqlite.modulemap; sourceTree = "<group>"; };
+		0DD0299235343DD9ADF256F21982A41F /* Pods-WDCAnalysis_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDCAnalysis_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1439412BA0276A40E325D93242B89B73 /* Pods-WDCAnalysis_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDCAnalysis_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1A09F1E319DA55B84F2CBC7DE697AD5A /* WDCModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCModelTool.m; path = WDCSqlite/Classes/WDCModelTool.m; sourceTree = "<group>"; };
+		1B6BD3FDBD54BB543F196416C13E1215 /* WDCSqliteConditionMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCSqliteConditionMaker.m; path = WDCSqlite/Classes/WDCSqliteConditionMaker.m; sourceTree = "<group>"; };
+		1DCC4467D50B10C17D09E37913590752 /* WDCAnalysis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WDCAnalysis.framework; path = WDCAnalysis/Products/WDCAnalysis.framework; sourceTree = "<group>"; };
+		1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		269A5274FD6771E4473D7A346615C1FA /* Pods-WDCAnalysis_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WDCAnalysis_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2786930E51DF5A74EFE31E155601EFCF /* Pods-WDCAnalysis_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDCAnalysis_Example.release.xcconfig"; sourceTree = "<group>"; };
+		294D565BD14D66ED4E514BE3047FCD8F /* WDCSqlite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDCSqlite-prefix.pch"; sourceTree = "<group>"; };
+		3A0BA27840FD1A366844E47ECB0D0904 /* WDCTableTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCTableTool.h; path = WDCSqlite/Classes/WDCTableTool.h; sourceTree = "<group>"; };
+		44A3BAA90F16A3CE467472D60C1F0D88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		491CD5A843D7F6C3F36AF4A2F0C4C757 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		4AC08642791459BE13BB3F333342D409 /* Pods_WDCAnalysis_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WDCAnalysis_Example.framework; path = "Pods-WDCAnalysis_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51935E6A3CABB01FD3ED01773788B047 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		529850DF0BFB87BC492A779C74A01326 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		53AEA2FEC8F8F5243EED6E28BC13DB0E /* WDCSqlite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WDCSqlite-Info.plist"; sourceTree = "<group>"; };
+		5623D521D29769D144F8FB56463241D4 /* Pods-WDCAnalysis_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDCAnalysis_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59530DA3C071467EE968660EEE534916 /* Pods-WDCAnalysis_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDCAnalysis_Example-Info.plist"; sourceTree = "<group>"; };
+		59CCEC7DA71E571B53672F21FB52D68C /* Pods-WDCAnalysis_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDCAnalysis_Example-dummy.m"; sourceTree = "<group>"; };
+		5ABA3A4C6E2B12129EA8864497E2280B /* WDCSqliteModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCSqliteModelTool.m; path = WDCSqlite/Classes/WDCSqliteModelTool.m; sourceTree = "<group>"; };
+		60A9345FFFEA128368C333A28498A096 /* Pods-WDCAnalysis_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WDCAnalysis_Tests-umbrella.h"; sourceTree = "<group>"; };
+		651109646CE52C6DC1EDDDED90ACB169 /* Pods-WDCAnalysis_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDCAnalysis_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		683EF0E3AE7AA90E8B14F7C8339D35ED /* Pods-WDCAnalysis_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDCAnalysis_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D7769984D644A142DACFE17A545D068 /* WDCSqlite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDCSqlite-dummy.m"; sourceTree = "<group>"; };
+		6F9F9D912BAE25EFA7411A0890FE044D /* WDCAnalysisSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCAnalysisSDK.h; path = WDCAnalysis/Classes/WDCAnalysisSDK.h; sourceTree = "<group>"; };
+		70625C03DDD5259233AA1232E759F51B /* WDCSqliteAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCSqliteAPI.h; path = WDCSqlite/Classes/WDCSqliteAPI.h; sourceTree = "<group>"; };
+		759E92D6FFF143BB09A31E4AC6583F03 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		781851485BC91E4F870BAAE9D7CD76C0 /* WDCSqlite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDCSqlite-umbrella.h"; sourceTree = "<group>"; };
+		79DF0BEF1B209B3B9935AE93756B68CC /* WDCSqlite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WDCSqlite.framework; path = WDCSqlite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A097346EC12525FDC6F289260431F3E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		822A488DC64C8353C51DFA80596C0CFE /* WDCAnalysis.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WDCAnalysis.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		828A690B07BA4FCF282C7E0FEFDF53B9 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		84D74D0ED8CEBD6E1F1ED7430282549C /* Pods-WDCAnalysis_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDCAnalysis_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		85AB2E0008A82542C4575C43403266EF /* Pods-WDCAnalysis_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDCAnalysis_Tests-dummy.m"; sourceTree = "<group>"; };
+		87567C2F56BF98BAFB7980A487D959F7 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		8EA473C60630FDC52E6CD87231D51BEE /* Pods-WDCAnalysis_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WDCAnalysis_Tests.modulemap"; sourceTree = "<group>"; };
+		95FFE59983F998D91CAE57B654BCE129 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		9635960CC4A15DDC9CE704BFEFE376C8 /* WDCAnalysis.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDCAnalysis.xcconfig; sourceTree = "<group>"; };
+		974AA6B21B03F5A3E8CB9989B863128A /* WDCSqlite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDCSqlite.xcconfig; sourceTree = "<group>"; };
+		99BB3C1C4C9819BE7F3828F4CB63BE46 /* WDCSqliteTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCSqliteTool.m; path = WDCSqlite/Classes/WDCSqliteTool.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F4F0134BB4119040CB88C3BBACE2AA /* Pods-WDCAnalysis_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WDCAnalysis_Example-umbrella.h"; sourceTree = "<group>"; };
+		AB9FC948727225197E9484A2D66BFB68 /* WDCTableTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCTableTool.m; path = WDCSqlite/Classes/WDCTableTool.m; sourceTree = "<group>"; };
+		B8542D370F5ECA5EB65AA246E8DF0E50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BDA8AEFE610B5E204FAEC96D4D91F335 /* WDCSqliteConditionMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCSqliteConditionMaker.h; path = WDCSqlite/Classes/WDCSqliteConditionMaker.h; sourceTree = "<group>"; };
+		C3FD789D33274E1E877A2ED8149B232B /* WDCSqliteTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCSqliteTool.h; path = WDCSqlite/Classes/WDCSqliteTool.h; sourceTree = "<group>"; };
+		CE191D99703BE4E54489525C6EDE3786 /* WDCModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCModelProtocol.h; path = WDCSqlite/Classes/WDCModelProtocol.h; sourceTree = "<group>"; };
+		CE4F7799189C352E1D9346617C1FCFED /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		CFE19156B8677F09BB0C60F55FFB8E2A /* WDCSqliteAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCSqliteAPI.m; path = WDCSqlite/Classes/WDCSqliteAPI.m; sourceTree = "<group>"; };
+		D075D474D5E6FB169B143BCE20114B33 /* Pods-WDCAnalysis_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDCAnalysis_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DB5EB6DB6EB5CA16C5037AB59BE7BD24 /* WDCModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCModelTool.h; path = WDCSqlite/Classes/WDCModelTool.h; sourceTree = "<group>"; };
+		E7AAD00E7CB2EB45CEA25A80659AF5BD /* Pods-WDCAnalysis_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDCAnalysis_Tests-Info.plist"; sourceTree = "<group>"; };
+		EE21E84E5811F9801C7D29DE0154716B /* WDCSqliteBaseTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCSqliteBaseTool.m; path = WDCSqlite/Classes/WDCSqliteBaseTool.m; sourceTree = "<group>"; };
+		F910A8811985E0D4BD3C566791279371 /* Pods-WDCAnalysis_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WDCAnalysis_Example.modulemap"; sourceTree = "<group>"; };
+		FC6F7584FAE298A08F8C448DB389E12C /* WDCSqliteModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCSqliteModelTool.h; path = WDCSqlite/Classes/WDCSqliteModelTool.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E71282825362DBC1812180053E9868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6366B1417B803A7C68AC2107F53FE3 /* Foundation.framework in Frameworks */,
+				40748C470D513B0A1FC5C87BFEFDF3BF /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C456667F13AEE46CB907E49D7AEA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C4398747969C996297B1604A483DD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628C2EA062C80C694F5AB5EF49B0C74F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EB0755BECCE98F673D3A820DC9CF75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B59B36886C0FEC7EECF8D4A2034DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D258056E1B7D0DA33D22894C821DB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0751DD285B489BD7DD5B880EF9B3B3B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9635960CC4A15DDC9CE704BFEFE376C8 /* WDCAnalysis.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WDCAnalysis";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB7EBF6CCCA535BA4F447E10039CEA16 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19D9EF076D8A89FFCCD1A5BD0A44550D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				828A690B07BA4FCF282C7E0FEFDF53B9 /* AFNetworking.modulemap */,
+				95FFE59983F998D91CAE57B654BCE129 /* AFNetworking.xcconfig */,
+				759E92D6FFF143BB09A31E4AC6583F03 /* AFNetworking-dummy.m */,
+				529850DF0BFB87BC492A779C74A01326 /* AFNetworking-Info.plist */,
+				491CD5A843D7F6C3F36AF4A2F0C4C757 /* AFNetworking-prefix.pch */,
+				51935E6A3CABB01FD3ED01773788B047 /* AFNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		2E1F8F4161D9A70DE2D6C0280CB270F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C3A194445E9D66A640E47F90EAC6C9 /* WDCSqlite.modulemap */,
+				974AA6B21B03F5A3E8CB9989B863128A /* WDCSqlite.xcconfig */,
+				6D7769984D644A142DACFE17A545D068 /* WDCSqlite-dummy.m */,
+				53AEA2FEC8F8F5243EED6E28BC13DB0E /* WDCSqlite-Info.plist */,
+				294D565BD14D66ED4E514BE3047FCD8F /* WDCSqlite-prefix.pch */,
+				781851485BC91E4F870BAAE9D7CD76C0 /* WDCSqlite-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WDCSqlite";
+			sourceTree = "<group>";
+		};
+		40D7CD3473C0991BD43F5FF8C06449A3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5B44CAE5BFB42B87569B282DAD2173A /* Pods-WDCAnalysis_Example */,
+				5DE219F3EF8491145460BEDAE4A00C8C /* Pods-WDCAnalysis_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5211996DA9BB02DC20F949FF4DE06A06 /* WDCAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F9D912BAE25EFA7411A0890FE044D /* WDCAnalysisSDK.h */,
+				FBA2787C1734F7AD2D6E4346F4A6CDF2 /* Frameworks */,
+				76CB09E338C49D13D9951D37A14F205B /* Pod */,
+				0751DD285B489BD7DD5B880EF9B3B3B9 /* Support Files */,
+			);
+			name = WDCAnalysis;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5DE219F3EF8491145460BEDAE4A00C8C /* Pods-WDCAnalysis_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8EA473C60630FDC52E6CD87231D51BEE /* Pods-WDCAnalysis_Tests.modulemap */,
+				651109646CE52C6DC1EDDDED90ACB169 /* Pods-WDCAnalysis_Tests-acknowledgements.markdown */,
+				683EF0E3AE7AA90E8B14F7C8339D35ED /* Pods-WDCAnalysis_Tests-acknowledgements.plist */,
+				85AB2E0008A82542C4575C43403266EF /* Pods-WDCAnalysis_Tests-dummy.m */,
+				E7AAD00E7CB2EB45CEA25A80659AF5BD /* Pods-WDCAnalysis_Tests-Info.plist */,
+				60A9345FFFEA128368C333A28498A096 /* Pods-WDCAnalysis_Tests-umbrella.h */,
+				0DD0299235343DD9ADF256F21982A41F /* Pods-WDCAnalysis_Tests.debug.xcconfig */,
+				1439412BA0276A40E325D93242B89B73 /* Pods-WDCAnalysis_Tests.release.xcconfig */,
+			);
+			name = "Pods-WDCAnalysis_Tests";
+			path = "Target Support Files/Pods-WDCAnalysis_Tests";
+			sourceTree = "<group>";
+		};
+		76CB09E338C49D13D9951D37A14F205B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				44A3BAA90F16A3CE467472D60C1F0D88 /* LICENSE */,
+				B8542D370F5ECA5EB65AA246E8DF0E50 /* README.md */,
+				822A488DC64C8353C51DFA80596C0CFE /* WDCAnalysis.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A5B44CAE5BFB42B87569B282DAD2173A /* Pods-WDCAnalysis_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F910A8811985E0D4BD3C566791279371 /* Pods-WDCAnalysis_Example.modulemap */,
+				5623D521D29769D144F8FB56463241D4 /* Pods-WDCAnalysis_Example-acknowledgements.markdown */,
+				84D74D0ED8CEBD6E1F1ED7430282549C /* Pods-WDCAnalysis_Example-acknowledgements.plist */,
+				59CCEC7DA71E571B53672F21FB52D68C /* Pods-WDCAnalysis_Example-dummy.m */,
+				269A5274FD6771E4473D7A346615C1FA /* Pods-WDCAnalysis_Example-frameworks.sh */,
+				59530DA3C071467EE968660EEE534916 /* Pods-WDCAnalysis_Example-Info.plist */,
+				A8F4F0134BB4119040CB88C3BBACE2AA /* Pods-WDCAnalysis_Example-umbrella.h */,
+				D075D474D5E6FB169B143BCE20114B33 /* Pods-WDCAnalysis_Example.debug.xcconfig */,
+				2786930E51DF5A74EFE31E155601EFCF /* Pods-WDCAnalysis_Example.release.xcconfig */,
+			);
+			name = "Pods-WDCAnalysis_Example";
+			path = "Target Support Files/Pods-WDCAnalysis_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F62A28B6DAE7D71C1160D7488A26C353 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				E686CBDAEC0330300DCAE69B301B532F /* Pods */,
+				F007D7E6DC7CD61B8DEC1A0552B8333D /* Products */,
+				40D7CD3473C0991BD43F5FF8C06449A3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D70FD1895C6B9D6F56F4AB6528B34E64 /* WDCSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				CE191D99703BE4E54489525C6EDE3786 /* WDCModelProtocol.h */,
+				DB5EB6DB6EB5CA16C5037AB59BE7BD24 /* WDCModelTool.h */,
+				1A09F1E319DA55B84F2CBC7DE697AD5A /* WDCModelTool.m */,
+				70625C03DDD5259233AA1232E759F51B /* WDCSqliteAPI.h */,
+				CFE19156B8677F09BB0C60F55FFB8E2A /* WDCSqliteAPI.m */,
+				0004F9294025A2875792457496F1B05E /* WDCSqliteBaseTool.h */,
+				EE21E84E5811F9801C7D29DE0154716B /* WDCSqliteBaseTool.m */,
+				BDA8AEFE610B5E204FAEC96D4D91F335 /* WDCSqliteConditionMaker.h */,
+				1B6BD3FDBD54BB543F196416C13E1215 /* WDCSqliteConditionMaker.m */,
+				FC6F7584FAE298A08F8C448DB389E12C /* WDCSqliteModelTool.h */,
+				5ABA3A4C6E2B12129EA8864497E2280B /* WDCSqliteModelTool.m */,
+				C3FD789D33274E1E877A2ED8149B232B /* WDCSqliteTool.h */,
+				99BB3C1C4C9819BE7F3828F4CB63BE46 /* WDCSqliteTool.m */,
+				3A0BA27840FD1A366844E47ECB0D0904 /* WDCTableTool.h */,
+				AB9FC948727225197E9484A2D66BFB68 /* WDCTableTool.m */,
+				2E1F8F4161D9A70DE2D6C0280CB270F1 /* Support Files */,
+			);
+			name = WDCSqlite;
+			path = WDCSqlite;
+			sourceTree = "<group>";
+		};
+		DB7EBF6CCCA535BA4F447E10039CEA16 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DE354DA182454A49972F1EA0BAB0B3E /* Foundation.framework */,
+				CE4F7799189C352E1D9346617C1FCFED /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E686CBDAEC0330300DCAE69B301B532F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2AB8310AE947CD48F01E57C0C1DB7E8 /* AFNetworking */,
+				D70FD1895C6B9D6F56F4AB6528B34E64 /* WDCSqlite */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F007D7E6DC7CD61B8DEC1A0552B8333D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
+				4AC08642791459BE13BB3F333342D409 /* Pods_WDCAnalysis_Example.framework */,
+				02032ED9E62D2F4849B3E780ED46A474 /* Pods_WDCAnalysis_Tests.framework */,
+				79DF0BEF1B209B3B9935AE93756B68CC /* WDCSqlite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2AB8310AE947CD48F01E57C0C1DB7E8 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FD57AE1F42B48328528EE6A2B3B2789E /* Reachability */,
+				19D9EF076D8A89FFCCD1A5BD0A44550D /* Support Files */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		F62A28B6DAE7D71C1160D7488A26C353 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5211996DA9BB02DC20F949FF4DE06A06 /* WDCAnalysis */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FBA2787C1734F7AD2D6E4346F4A6CDF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DCC4467D50B10C17D09E37913590752 /* WDCAnalysis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD57AE1F42B48328528EE6A2B3B2789E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				87567C2F56BF98BAFB7980A487D959F7 /* AFNetworkReachabilityManager.h */,
+				7A097346EC12525FDC6F289260431F3E /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5DC56463A627DF9E2B2751491A5DFDF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7330505E06565CA31F9A2EA759E18EF /* Pods-WDCAnalysis_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB31E3298C8370E5DEA2DDA1AC9D5C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43897F6ED88A8440EB5216D4BEE22A36 /* AFNetworking-umbrella.h in Headers */,
+				832ABE22023F7C0149FCDEDBC19C7BB7 /* AFNetworkReachabilityManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B601E15EEA15ADCB851A2968AB037BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B8F8C6CA935E3224376D384168310C /* WDCModelProtocol.h in Headers */,
+				68AF2365FAA193DDE9EBD8E315BF78DA /* WDCModelTool.h in Headers */,
+				798CD23A1597A9086FFFB9693D51ED37 /* WDCSqlite-umbrella.h in Headers */,
+				BE5428B87584E262EF88A2A04A14F57F /* WDCSqliteAPI.h in Headers */,
+				36DADFF804D4408AD5668581F00AF0C5 /* WDCSqliteBaseTool.h in Headers */,
+				9367CAADE5ED76EF984F9BC7E6F30CE1 /* WDCSqliteConditionMaker.h in Headers */,
+				C4302360AAD9BAF051A6E57BA428A46D /* WDCSqliteModelTool.h in Headers */,
+				2D98A065AC72929D7C41C3E7A4491C38 /* WDCSqliteTool.h in Headers */,
+				72EE13AC2350377A0939C1E71782C10E /* WDCTableTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8239EA3DAC719F86CD635F67C135E39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF8B5ED99F5B7160B456157BE216585 /* Pods-WDCAnalysis_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516DBDBD5CA7C8E4BDAE81AADCA75942 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				8DB31E3298C8370E5DEA2DDA1AC9D5C7 /* Headers */,
+				33609FA73A05F217EE323F2CD70930DD /* Sources */,
+				10E71282825362DBC1812180053E9868 /* Frameworks */,
+				60D0AF6A0E298E6AC5E94339213D6BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57B2352806C92DEB1DB9A441D4884CBA /* Pods-WDCAnalysis_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20834991067F028237159603F9D5E69 /* Build configuration list for PBXNativeTarget "Pods-WDCAnalysis_Example" */;
+			buildPhases = (
+				E8239EA3DAC719F86CD635F67C135E39 /* Headers */,
+				6CB0538B8EE10815AE1B3D04EC5A720E /* Sources */,
+				88B59B36886C0FEC7EECF8D4A2034DED /* Frameworks */,
+				2F1BAE5D00E9D9DF55296DF62EA9C32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF420A72A3390981B8B02DE2A1042A9 /* PBXTargetDependency */,
+				258163AC77C0EF63A67E5C6EE9AD07AA /* PBXTargetDependency */,
+				F35555767B922060D7F7C65BF6B5BF25 /* PBXTargetDependency */,
+			);
+			name = "Pods-WDCAnalysis_Example";
+			productName = "Pods-WDCAnalysis_Example";
+			productReference = 4AC08642791459BE13BB3F333342D409 /* Pods_WDCAnalysis_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFAD39433209F45B4ACA8CEC07B312D7 /* Pods-WDCAnalysis_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD92E8EE977AAF87DDD3E2E6808BDBF /* Build configuration list for PBXNativeTarget "Pods-WDCAnalysis_Tests" */;
+			buildPhases = (
+				5DC56463A627DF9E2B2751491A5DFDF6 /* Headers */,
+				8659EEE80CC329DD934C5D1A18339197 /* Sources */,
+				628C2EA062C80C694F5AB5EF49B0C74F /* Frameworks */,
+				089FEE79CA5722B350AEFFEBB12B2B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC474DC79F8A8EC4DFFEA6686992E98 /* PBXTargetDependency */,
+			);
+			name = "Pods-WDCAnalysis_Tests";
+			productName = "Pods-WDCAnalysis_Tests";
+			productReference = 02032ED9E62D2F4849B3E780ED46A474 /* Pods_WDCAnalysis_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D04DB41AD5B6B0E9205DA993479F6C1C /* WDCSqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD6FEB0F3365F2CB8232C7943AD2A68 /* Build configuration list for PBXNativeTarget "WDCSqlite" */;
+			buildPhases = (
+				9B601E15EEA15ADCB851A2968AB037BB /* Headers */,
+				A51FDC3EB821BA774DBFDA6BBFC73080 /* Sources */,
+				34C456667F13AEE46CB907E49D7AEA6F /* Frameworks */,
+				A1A5C91173060D6A3EDCF076E1DAF7E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDCSqlite;
+			productName = WDCSqlite;
+			productReference = 79DF0BEF1B209B3B9935AE93756B68CC /* WDCSqlite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F007D7E6DC7CD61B8DEC1A0552B8333D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
+				57B2352806C92DEB1DB9A441D4884CBA /* Pods-WDCAnalysis_Example */,
+				BFAD39433209F45B4ACA8CEC07B312D7 /* Pods-WDCAnalysis_Tests */,
+				3E7B1319BE3DE3AC477521381397DE2D /* WDCAnalysis */,
+				D04DB41AD5B6B0E9205DA993479F6C1C /* WDCSqlite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		089FEE79CA5722B350AEFFEBB12B2B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1BAE5D00E9D9DF55296DF62EA9C32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D0AF6A0E298E6AC5E94339213D6BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A5C91173060D6A3EDCF076E1DAF7E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33609FA73A05F217EE323F2CD70930DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F389538B14FE4D7A7E468F217FBDF28 /* AFNetworking-dummy.m in Sources */,
+				BD8482FFD73F973B08BA8DD85F77EE52 /* AFNetworkReachabilityManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB0538B8EE10815AE1B3D04EC5A720E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFFB4240F46103A8E5271C91EA5769B /* Pods-WDCAnalysis_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8659EEE80CC329DD934C5D1A18339197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453C6067DA6A71D3896B9DDA793A67B8 /* Pods-WDCAnalysis_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51FDC3EB821BA774DBFDA6BBFC73080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D069EE39CFB29F8799B9DBBA4F04990E /* WDCModelTool.m in Sources */,
+				542DA16AAD8DCE8C59408F57CD677469 /* WDCSqlite-dummy.m in Sources */,
+				E64900D795AAACAB9E72380BF0FB5D94 /* WDCSqliteAPI.m in Sources */,
+				F75C505614535DCAA5A768B06D5825D5 /* WDCSqliteBaseTool.m in Sources */,
+				CFB8AD27F50798B5C1AB1A92E9DE8D4B /* WDCSqliteConditionMaker.m in Sources */,
+				8D83EBD6206A5BA166222C3A2092700F /* WDCSqliteModelTool.m in Sources */,
+				00C6FFBC7F60F0E162A8F45D74AE0097 /* WDCSqliteTool.m in Sources */,
+				C382E1E8955093D3497DF7278F452DC2 /* WDCTableTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		258163AC77C0EF63A67E5C6EE9AD07AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WDCAnalysis;
+			target = 3E7B1319BE3DE3AC477521381397DE2D /* WDCAnalysis */;
+			targetProxy = 69AA30ACD4C423352B366BCBB84C8E56 /* PBXContainerItemProxy */;
+		};
+		4AC474DC79F8A8EC4DFFEA6686992E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WDCAnalysis_Example";
+			target = 57B2352806C92DEB1DB9A441D4884CBA /* Pods-WDCAnalysis_Example */;
+			targetProxy = 5B76D04641371F659C3B89EE62422B77 /* PBXContainerItemProxy */;
+		};
+		531E8D5649B3D61D107818AF14E747BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 5A3104251A01E7BD69FB28D3E6B19012 /* PBXContainerItemProxy */;
+		};
+		D207D5D31C38A100BB941E7F5F04774C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WDCSqlite;
+			target = D04DB41AD5B6B0E9205DA993479F6C1C /* WDCSqlite */;
+			targetProxy = C903D4DBEC9067654BB53A2A87E2FA4D /* PBXContainerItemProxy */;
+		};
+		DAF420A72A3390981B8B02DE2A1042A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = B790D00D71EDD82A6595F59121AE8E4B /* PBXContainerItemProxy */;
+		};
+		F35555767B922060D7F7C65BF6B5BF25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WDCSqlite;
+			target = D04DB41AD5B6B0E9205DA993479F6C1C /* WDCSqlite */;
+			targetProxy = 6BBAB596F95FE0076FA8AEB2A56ED2F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54A4DEFB9B4E36309C1FD28C5BEEA7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95FFE59983F998D91CAE57B654BCE129 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9727DB915D9E38E147386069B39808B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9635960CC4A15DDC9CE704BFEFE376C8 /* WDCAnalysis.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B5358C26492F032BCC38F45B2E48F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2786930E51DF5A74EFE31E155601EFCF /* Pods-WDCAnalysis_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WDCAnalysis_Example/Pods-WDCAnalysis_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WDCAnalysis_Example/Pods-WDCAnalysis_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0C96D662FA235A838E5969D23F6CDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1439412BA0276A40E325D93242B89B73 /* Pods-WDCAnalysis_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WDCAnalysis_Tests/Pods-WDCAnalysis_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WDCAnalysis_Tests/Pods-WDCAnalysis_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5929E80B3A24BB307BF89196BA3793E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD0299235343DD9ADF256F21982A41F /* Pods-WDCAnalysis_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WDCAnalysis_Tests/Pods-WDCAnalysis_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WDCAnalysis_Tests/Pods-WDCAnalysis_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB5E3A229EE095B52160199303674258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9635960CC4A15DDC9CE704BFEFE376C8 /* WDCAnalysis.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5B4CB80915DB3EB1C71D022271DD234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974AA6B21B03F5A3E8CB9989B863128A /* WDCSqlite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WDCSqlite/WDCSqlite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WDCSqlite/WDCSqlite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WDCSqlite/WDCSqlite.modulemap";
+				PRODUCT_MODULE_NAME = WDCSqlite;
+				PRODUCT_NAME = WDCSqlite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E62486FC0251CC906732CAD9C092A24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95FFE59983F998D91CAE57B654BCE129 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7804BBE84E4228AFEB9FDBC76501355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D075D474D5E6FB169B143BCE20114B33 /* Pods-WDCAnalysis_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WDCAnalysis_Example/Pods-WDCAnalysis_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WDCAnalysis_Example/Pods-WDCAnalysis_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD463BC0FAF7ACE45F31FB73DEF46F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974AA6B21B03F5A3E8CB9989B863128A /* WDCSqlite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WDCSqlite/WDCSqlite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WDCSqlite/WDCSqlite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WDCSqlite/WDCSqlite.modulemap";
+				PRODUCT_MODULE_NAME = WDCSqlite;
+				PRODUCT_NAME = WDCSqlite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2960D5D380A626E4B081816D28ED097C /* Build configuration list for PBXAggregateTarget "WDCAnalysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9727DB915D9E38E147386069B39808B4 /* Debug */,
+				CB5E3A229EE095B52160199303674258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516DBDBD5CA7C8E4BDAE81AADCA75942 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A4DEFB9B4E36309C1FD28C5BEEA7F2 /* Debug */,
+				E62486FC0251CC906732CAD9C092A24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD6FEB0F3365F2CB8232C7943AD2A68 /* Build configuration list for PBXNativeTarget "WDCSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD463BC0FAF7ACE45F31FB73DEF46F09 /* Debug */,
+				D5B4CB80915DB3EB1C71D022271DD234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20834991067F028237159603F9D5E69 /* Build configuration list for PBXNativeTarget "Pods-WDCAnalysis_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7804BBE84E4228AFEB9FDBC76501355 /* Debug */,
+				9B5358C26492F032BCC38F45B2E48F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD92E8EE977AAF87DDD3E2E6808BDBF /* Build configuration list for PBXNativeTarget "Pods-WDCAnalysis_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5929E80B3A24BB307BF89196BA3793E /* Debug */,
+				B0C96D662FA235A838E5969D23F6CDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

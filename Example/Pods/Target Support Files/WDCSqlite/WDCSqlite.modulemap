@@ -1,0 +1,6 @@
+framework module WDCSqlite {
+  umbrella header "WDCSqlite-umbrella.h"
+
+  export *
+  module * { export * }
+}

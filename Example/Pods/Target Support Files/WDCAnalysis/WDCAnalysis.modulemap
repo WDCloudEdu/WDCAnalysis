@@ -1,0 +1,6 @@
+framework module WDCAnalysis {
+  umbrella header "WDCAnalysis-umbrella.h"
+
+  export *
+  module * { export * }
+}

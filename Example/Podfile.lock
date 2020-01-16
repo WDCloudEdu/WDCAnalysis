@@ -1,0 +1,28 @@
+PODS:
+  - AFNetworking/Reachability (3.2.1)
+  - WDCAnalysis (1.0.1):
+    - AFNetworking/Reachability
+    - WDCSqlite
+  - WDCSqlite (0.2.0)
+
+DEPENDENCIES:
+  - WDCAnalysis (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+  "ssh://git@gitlab.wdcloud.cc:2222/iosbase/WDCPrivatePods.git":
+    - WDCSqlite
+
+EXTERNAL SOURCES:
+  WDCAnalysis:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  WDCAnalysis: 7f75c3f0ef3548c3e55a9ce2e16f8d28899915f2
+  WDCSqlite: 5752d82a90d0de026246d7f58ec7b45c50b845ad
+
+PODFILE CHECKSUM: f88afa102904f6795066bc1293b22fe953f082eb
+
+COCOAPODS: 1.7.1

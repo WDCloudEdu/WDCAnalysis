@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'WDCAnalysis_Example' do
+  pod 'WDCAnalysis', :path => '../'
+
+  target 'WDCAnalysis_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

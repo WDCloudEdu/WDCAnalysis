@@ -1,0 +1,6 @@
+framework module Pods_WDCAnalysis_Tests {
+  umbrella header "Pods-WDCAnalysis_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
