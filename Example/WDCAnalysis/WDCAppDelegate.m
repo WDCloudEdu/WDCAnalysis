@@ -26,6 +26,8 @@ static NSString *const kDurationOfUseEventId = @"WDCAnalysisExample.common.durat
     /// 设置为调试模式（统计记录不上传服务器，打印日志）
     [WDCAnalysisSDK setupDebug:YES];
     
+    /// 设置你的accessKey
+    [WDCAnalysisSDK setupAccessKey:@""];
     /// 设置userId （统计记录/崩溃记录的userId）
     [WDCAnalysisSDK setupUserId:[WDCUser sharedUser].userId];
     /// 设置页面统计的控制器类名与页面名称、页面Id的对应关系

@@ -12,9 +12,10 @@
 ## 一.sdk初始化
 在`application:didFinishLaunchingWithOptions:`方法中进行初始化
 * 1.设置debug模式（统计记录不上传服务器、打印日志。release环境需去除。）
-* 2.设置userId (统计记录的userId，如果不用统计userId可以不设置。如果除了userId外还需要统计locationCode，可以调用`setupUserId:locationCode:`方法设置)
-* 3.页面统计初始化（不用页面统计可以不设置）
-* 4.崩溃统计初始化（不用崩溃统计可以不设置）
+* 2.设置accessKey (由后台分配)
+* 3.设置userId (统计记录的userId，如果不用统计userId可以不设置。如果除了userId外还需要统计locationCode，可以调用`setupUserId:locationCode:`方法设置)
+* 4.页面统计初始化（不用页面统计可以不设置）
+* 5.崩溃统计初始化（不用崩溃统计可以不设置）
 
 ```objc
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
@@ -28,6 +29,8 @@
     /// 设置为调试模式（统计记录不上传服务器，打印日志）
 //    [WDCAnalysisSDK setupDebug:YES];
     
+    /// 设置你的accessKey
+    [WDCAnalysisSDK setupAccessKey:@""];
     /// 设置userId （统计记录/崩溃记录的userId）
     [WDCAnalysisSDK setupUserId:[WDCUser sharedUser].userId];
     /// 设置页面统计的控制器类名与页面名称、页面Id的对应关系

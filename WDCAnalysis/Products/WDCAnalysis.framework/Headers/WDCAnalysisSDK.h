@@ -11,15 +11,17 @@
 @interface WDCAnalysisSDK : NSObject
 
 #pragma mark - 初始化
-/// 设置统计记录中的用户Id（建议在didFinishLaunchingWithOptions、登录获取用户Id成功时、退出登录清空用户Id时（这时setupUserId:nil）调用）
+/// 设置AccessKey（由后台分配）(在didFinishLaunchingWithOptions中最先调用)
++ (void)setupAccessKey:(NSString *)accessKey;
+/// 设置统计记录中的用户Id（在didFinishLaunchingWithOptions、登录获取用户Id成功时、退出登录清空用户Id时（这时setupUserId:nil）调用）
 + (void)setupUserId:(NSString *)userId;
 /// 设置统计记录中的用户Id和用户地区码（在需要统计地区码的情况下使用）
 + (void)setupUserId:(NSString *)userId locationCode:(NSString *)locationCode;
-/// 设置崩溃分析（建议在didFinishLaunchingWithOptions中调用）(调用时要确保已设置过userId)
+/// 设置崩溃分析（在didFinishLaunchingWithOptions中调用）(调用时要确保已设置过userId)
 + (void)setupCrashAnalysis;
 
 #pragma mark - 统计记录上传
-///将数据库中的统计记录上传（建议在applicationWillResignActive时、退出登录时调用本方法）(调用时要确保已设置过userId)
+/// 将数据库中的统计记录上传（建议在applicationWillResignActive时、退出登录时调用本方法）(调用时要确保已设置过userId)
 + (void)uploadAnalysisRecords;
 
 #pragma mark - 页面统计
@@ -51,5 +53,7 @@
 #pragma mark - 其他
 ///设置调试模式（默认是NO）
 + (void)setupDebug:(BOOL)isDebug;
+///设置上传记录失败回调（可用于捕获上传记录失败的情况）
++ (void)setupUploadRecordsFailure:(void(^)(NSDictionary *failureInfo))uploadRecordsFailure;
 
 @end
